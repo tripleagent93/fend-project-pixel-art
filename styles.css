@@ -8,9 +8,6 @@ body {
     background: linear-gradient(-90deg, #ff222a, #e8373e, #ff222a); /* Standard syntax */
 
 }
-form {
-
-}
 
 h1 {
     font-family: Monoton;
@@ -58,7 +55,6 @@ textarea:focus,
 button:focus {
     outline: none;
 }
-
 
 table, tr, td {
     border: 1px solid black;

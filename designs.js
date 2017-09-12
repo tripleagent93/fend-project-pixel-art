@@ -19,7 +19,6 @@ function clearGrid(){
 
 function makeGrid(height, width) {
 
-
   clearGrid();
   //create our rows (height)
   for(var i=0; i < height; i++){
@@ -34,10 +33,7 @@ function makeGrid(height, width) {
     }
 
   });
-
-
 }
-
 
 $('#pixel_canvas').on('click','td',function() {
      var color = $('#colorPicker').val();
